@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pktb.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="cont flex items-center justify-center h-screen flex-col w-screen">
+        <div id="card" class="relative nnn flex-col w-[20%] bg-green-600 rounded-xl px-[30px] py-[20px]">
+            <p class="hp relative left-[50%] top-[1%] bg-white -translate-x-[50%] px-7 py-3 rounded-full font-semibold">#<span class="po font-extrabold">99</span></p>
+            <img src="1.svg"/>
+            <h2 class="text-3xl my-5 ln font-extrabold">pokemon's name</h2>
+            <div id="typ" class="pb-5 flex items-center w-full justify-around">
+                <h3 class="bg-red-500 px-5 py-2 tp1 rounded-full font-extrabold text-white" >Type-1</h3>
+                <h3 class="bg-red-500 px-5 py-2 tp2 rounded-full font-extrabold text-white" >Type-2</h3>
+            </div>
+            <div id="ability" class="flex items-center w-full justify-around py-4">
+                <div id="ab1" class="nnn nk text-white bg-black rounded-lg flex-col font-bold px-2" ><h1>99</h1><span class="font-medium text-1xl" >Attack</span></div>
+                <div id="ab2" class="nnn nk text-white bg-black rounded-lg flex-col font-bold px-2" ><h1>99</h1><span class="font-medium text-1xl" >Defense</span></div>
+                <div id="ab3" class="nnn nk text-white bg-black rounded-lg flex-col font-bold px-2" ><h1>99</h1><span class="font-medium text-1xl" >Speed</span></div>
+            </div>
+        </div>
+        <button id="btn" class="bg-black px-12 rounded-lg m-10 text-3xl py-4">Generate</button>
+    <script src="pktb.js"></script>
+</body>
+</html>
